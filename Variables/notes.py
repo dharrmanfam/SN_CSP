@@ -10,8 +10,7 @@
     # "-"= subtraction
     # "*"= multiply
     # "/"= division
-#List ALL of the assignment operators
-    # 
+    
 name = input("what is your name? ")
 print("Hello", name)
 
@@ -31,8 +30,8 @@ average = (total/4)
 print("The average age between my friends are", + average)
 
 #math equations
-num_one = 10
-num_two = 6
+num_one = float(input("Give me a number:\n"))
+num_two = int(input("Give me a number:\n"))
 
 print("addition:", num_one + num_two)
 print("subtraction:", num_one - num_two)
@@ -41,4 +40,28 @@ print("division:", num_one / num_two)
 print("exponents:", num_one ** num_two)
 print("integer division:", num_one // num_two) 
 print("modulo (remainder):", num_one % num_two) 
-      
+
+#List ALL of the different assignment operators
+num_one = 10
+num_two = 8
+
+num_one += num_one + num_two
+print("addition (+):", num_one)
+num_one -= num_two
+print("subtraction:", num_one)
+num_one *= num_two
+print("multiplication", num_one)
+num_one /= num_two
+print("division:", num_one)
+num_one **= num_two
+print("exponents:", num_one)
+num_one //= num_two
+print("integer division:", num_one) 
+num_one %= num_two
+print("modulo (remainder):", num_one) 
+print("(3*5**2/15)-(5-2**2)=",(3*5**2/15)-(5-2**2))
+
+#Why are expressions so important in programming?
+
+# integers: a data type that can hold whole numbers
+# float: decimal
