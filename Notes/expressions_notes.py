@@ -62,6 +62,6 @@ print("modulo (remainder):", num_one)
 print("(3*5**2/15)-(5-2**2)=",(3*5**2/15)-(5-2**2))
 
 #Why are expressions so important in programming?
-
+    #They are essential for performing calculations, making decisions, and manipulating data.
 # integers: a data type that can hold whole numbers
 # float: decimal
