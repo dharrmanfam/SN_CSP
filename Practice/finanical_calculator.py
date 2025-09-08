@@ -14,5 +14,3 @@ savings = 0.4*(your_income - your_rent - your_utilities - your_groceries - your_
 print("you should save", "$",savings, "which is", savings / your_income*100, "% of your income")
 spending =(your_income - your_rent - your_utilities - your_groceries - your_transportation - savings)
 print("you can spend", "$", spending, "every month which is", spending / your_income*100, "% of your income!")
-
-
