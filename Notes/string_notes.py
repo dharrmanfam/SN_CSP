@@ -15,6 +15,9 @@ sentence = "The quick brown fox jumps over the lazy dog."
 print("Welcome to my program", full_name + "!")
 
 #debugging is fixing problems in my code!
+    #syntax Error
+    #Logic Error
+    #Run-Time Error
 
 #Why do we have strings?
 #How do stupid proofing and sanitization relate to each other?
