@@ -13,6 +13,9 @@ full_name = first_name + " " + last_name
 sentence = "The quick brown fox jumps over the lazy dog." 
 
 print("Welcome to my program", full_name + "!")
+
+#debugging is fixing problems in my code!
+
 #Why do we have strings?
 #How do stupid proofing and sanitization relate to each other?
 #What is debugging?
