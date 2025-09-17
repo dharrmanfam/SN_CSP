@@ -2,11 +2,11 @@
 
 
 def welcome(name): 
-    print("Hello", name.strip().title() + "!") 
+    print("Hello", name.strip().title() + "!" )
 
-welcome("Sophie") 
-welcome("Charlie") 
-welcome("ted") 
-welcome("tim") 
-welcome("claire") 
+welcome("sophie")
+welcome("charlie")
+welcome("ted")
+welcome("tim")
+welcome("claire")
 welcome("emma")
