@@ -1,4 +1,4 @@
-#SN 6th Update Hellow World Python
+#SN 6th Update Hello World Python
 
 
 def welcome(name): 
