@@ -20,18 +20,13 @@ name = input ("Tell me your name")
 
 if name == ("Ms Larose"):
     print("You are the teacher!")
-else: 
-     print(f"Hello {name}, you are a student!")
-if name == "Tia":
-    print("You are the TA!")
+
 elif name == "Tia":
     print("You are the TA!")
-
-
-
-
-
-
+else: 
+    if name == "Lucas":
+        print("You are int he 6th period!")
+    print(f"Hello{name}, you are the student!")
 
 #Comparison Operators
     #<: less than
@@ -40,3 +35,17 @@ elif name == "Tia":
     #>=: greater than or equal
     #==: equal
     #!=: not equal
+
+#Logical operators
+    #AND OR NOT
+    #Lets us check two or more ocnditions at the same time
+
+if num>=0 and num<10: #and means both must be true
+    print(f"{num} is a single digit number")
+elif num <25 or num == 50: #or means only 1 must be true
+    print(f"Wow {num} is a really cool number!")
+elif not num < 100: #not checks if the opposite is true
+    print(f"{num} is a large number")
+else:
+    print(f"You typed in a {num}")
+#A nested conditional statement allows the checking of multiple conditions in a sequence, to make it less complex.
