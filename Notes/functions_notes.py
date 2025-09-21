@@ -32,7 +32,7 @@ num_two = 14
 #add(87,45)
 
 def clean(info):
-    return info.strip().lower()
+    return info.strip().title()
 #What are return statements?
     #Stops the function completely and passes a specific value back to the caller.
 
@@ -58,7 +58,7 @@ def believe(sentence):
 
 new_sentence = believe("The quick brown fox jumps over the lazy dog!")
 print(new_sentence) #or
-print(believe("Peter piper pciked a peck of pickled peppers!"))
+print(believe("Peter piper picked a peck of pickled peppers!"))
 
 
 
