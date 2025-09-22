@@ -12,11 +12,11 @@ elif num ==4:
       print("That is the winning number!")
       #or you could do another if statement(it wil always come out it's ture however.)
 else:
-    print()
+    print("nothing")
         
 #You use an if statement if you have more than 2 needed outcomes.
 
-name = input ("Tell me your name")
+name = input ("Tell me your name").title()
 
 if name == ("Ms Larose"):
     print("You are the teacher!")
@@ -25,8 +25,8 @@ elif name == "Tia":
     print("You are the TA!")
 else: 
     if name == "Lucas":
-        print("You are int he 6th period!")
-    print(f"Hello{name}, you are the student!")
+        print("You are in the 6th period!")
+    print(f"Hello {name}, you are the student!")
 
 #Comparison Operators
     #<: less than
