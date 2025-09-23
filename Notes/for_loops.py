@@ -35,7 +35,7 @@ for x in range(20,-11,-1):#where we stop, where we stop at, and what we count by
 
 # Two types of loops are while loops and infinite loops
 
-#Iteration: repeating how many times
+#Iteration: one instance of a loop. iterator keeps track of how many times it iterates
 
 
 #While loops
