@@ -29,7 +29,7 @@ for x in siblings:
 for x in range(1,20):
     print(x)
 #runs only until 19, because range is telling to stop at 20.
-for x in range(20,-11,-1):#where we stop, where we stop at, and what we count by. (if we don't set the last one, then it's default is to count by +1)
+for x in range(20,-11,-1):#where we start, where we stop at, and what we count by. (if we don't set the last one, then it's default is to count by +1)
     print(x)
 
 
