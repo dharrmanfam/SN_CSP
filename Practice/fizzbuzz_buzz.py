@@ -2,13 +2,13 @@
 
 y= 1
 
-while y < 51:
-    if y % 3 == 0:
-        print("fizz")
+while y <= 50:
+    if y % 3 == 0 and y % 5== 0:
+        print("FizzBuzz")
+    elif y % 3 == 0:
+        print("Fizz")
     elif y % 5 == 0:
-        print ("buzz")
-    elif y % 3 == 0 and y % 5== 0:
-        print("fizzbuzz")
+        print ("Buzz")
     else:
         print(y)
     y += 1
