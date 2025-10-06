@@ -1,2 +1,2 @@
-etter grade: ");
-     scanf("%c", &grade); 
+
+    // +: addition

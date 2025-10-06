@@ -1,9 +1,9 @@
-#SN 6th Expressions Notes
+//SN 6th Expressions Notes
 #include <stdio.h>
 #include <math.h> //point is to make availability of different math operators
 
 int main(void){
-    int num year = 2025; //Whole numbers
+    int year = 2025; //Whole numbers
     float pi = 3.14; //decimals
     double long_pi = 3.14159265359; // decimals that are 2x as long
 
