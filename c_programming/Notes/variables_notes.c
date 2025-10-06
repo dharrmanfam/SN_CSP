@@ -21,6 +21,7 @@ int main(void){ // the main entry point
    printf("%c\n", grade);   //echo input
 
 
+
    printf("Tell me a number: ");
    scanf("%d", &num); // "%d" is a decimal integer and "%f" is floating point
     //This input lets me get a space
