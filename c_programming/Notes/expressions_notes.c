@@ -7,7 +7,7 @@ int main(void){
     float pi = 3.14; //decimals
     double long_pi = 3.14159265359; // decimals that are 2x as long
 
-    printf("8/3 = %f\n, (float) 8/3"); // automatically an integer division //cast is specifically stating the data type. after the % sign and beforr the division, operation.
+    printf("8/3 = %f\n", (float) 8/3); // automatically an integer division //cast is specifically stating the data type. after the % sign and beforr the division, operation.
     printf("8/3 =%1.2f\n", 8/3.0); //float division in c requires one of numbers to be a decimal, or float
     // after the % sign, put in how many before and after the decimal of numbers you want
     // when mixing an integer and float operations in c, it'll always be a float.
@@ -21,8 +21,9 @@ int main(void){
 
     year += 1;
     year ++; //both does the exact same thing as line 19,
+    int x=0; 
     x+=5;
-    
+
 
 
     return 0;
