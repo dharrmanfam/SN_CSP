@@ -3,7 +3,7 @@
 #include <math.h> //point is to make availability of different math operators
 
 int main(void){
-    int year = 2025; //Whole numbers
+    int year = 2025; //whole numbers
     float pi = 3.14; //decimals
     double long_pi = 3.14159265359; // decimals that are 2x as long
 
@@ -12,6 +12,7 @@ int main(void){
     // after the % sign, put in how many before and after the decimal of numbers you want
     // when mixing an integer and float operations in c, it'll always be a float.
     printf("2 ^ 4 = %f\n", pow(2,4));
+    // use roundf() to round a float
     // +: addition
     // -: subtraction
     // /: division
@@ -20,6 +21,9 @@ int main(void){
 
     year += 1;
     year ++; //both does the exact same thing as line 19,
+    x+=5;
+    
+
 
     return 0;
 }
