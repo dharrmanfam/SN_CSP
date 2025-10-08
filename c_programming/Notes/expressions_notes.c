@@ -11,7 +11,8 @@ int main(void){
     printf("8/3 =%1.2f\n", 8/3.0); //float division in c requires one of numbers to be a decimal, or float
     // after the % sign, put in how many before and after the decimal of numbers you want
     // when mixing an integer and float operations in c, it'll always be a float.
-    printf("2 ^ 4 = %f\n", pow(2,4));
+    printf("2 ^ 4 = %f\n", pow(2,4)); 
+    // (pow) is to the power of 
     // use roundf() to round a float
     // +: addition
     // -: subtraction
