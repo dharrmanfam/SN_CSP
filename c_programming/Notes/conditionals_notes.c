@@ -45,14 +45,14 @@ int main(void){
     A curly bracket puts them inside of the if statement
 
 How are conditions written in C?
-    Conditionalse very similar to python, but you put a parenthesis around the variable you're testing and put the test inside of a curly bracket.
+    Conditional's very similar to python, but you put a parenthesis around the variable you're testing and put the test inside of a curly bracket.
 
 How do we write elif conditions in C?
     The same way with if statements, but in C, write "else if"
 
 When do else conditions run?
     When none of the elif statements nor the if statements are true.
-    
+
 What are the 3 logical operators in C?
     LOGICAL OPERATORS
     &&: and
